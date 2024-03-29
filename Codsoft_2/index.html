@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">Regwin</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="home" id="home">
+      <div class="home__container">
+        <div class="content">
+          <h1 class="title">
+            Hi this is  <span>Regwin<br />a</span> Front End Developer
+          </h1>
+          <div class="action__btns">
+            <button class="portfolio">View Resume</button>
+          </div>
+        </div>
+        <div class="image">
+          <img src="assets/profile.jpg" alt="profile" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="about_container">
+        <div class="about_content">
+          <h1 class="sub-title">About <span>Me</span></h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec nibh
+            eu urna sodales aliquet. Nulla facilisi. Donec vel nisl et ipsum
+            consequat pharetra. Suspendisse vel vehicula libero. Integer vitae
+            nulla fermentum, tristique ipsum ac, euismod ipsum. In hac habitasse
+            platea dictumst. Sed sed bibendum turpis. Integer non nisi nec ex
+            tincidunt placerat. Aenean eu mauris vel odio lacinia sollicitudin.
+          </p>
+          <p>
+            Quisque sed vestibulum mauris, vitae fermentum risus. Phasellus vitae
+            fringilla libero. Pellentesque in consequat ipsum. Curabitur quis
+            sapien vitae elit vestibulum luctus. Integer nec nunc ipsum. Sed
+            consectetur vehicula sapien, sit amet sodales quam posuere eget. Morbi
+            quis ultricies eros. Maecenas vestibulum fermentum lectus. Nulla
+            facilisi. Fusce varius dictum sodales.
+          </p>
+        </div>
+        <div class="profile-picture">
+          <img src="assets/about.jpg" alt="Profile Picture" />
+        </div>  
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="project">
+          <div class="container">
+              <h1 class="sub-title">My <span>Projects</span></h1>
+              <div class="prj-list">
+                  <div>
+                      <h2>Landing page</h2>
+                      <p>Plan, create and code internet sites and web pages with modern and artful design.</p>
+                      
+                  </div>
+                  <div>
+                      <h2>Portfolio</h2>
+                      <p>Specialized in creating clean, artful design that are both intuitive and functional.</p>
+                      
+                  </div>
+                  <div>
+                      <h2>Calculator</h2>
+                      <p>Mobile application developer with knowledge of Java and Android Studio.</p>
+                      
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <section id="contact">
+    <div class="container"></div>
+    <h1 class="sub-title">Contact <span>Me</span></h1>
+    <form class="form">
+      <input type="text"name="first" placeholder="  First Name" autocomplete="off" required>
+      <input type="text"name="last" placeholder="  Last Name" autocomplete="off" required>
+      <input type="email"name="email" placeholder="  email address" autocomplete="off" required>
+      <textarea row="5" cols="60"  name="message" placeholder="enter text" autocomplete="off" required></textarea>
+      <button type="submit">Send message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Regwin | All Rights Reserved.</p>
+  </footer>
+
+  </body>
+</html>
